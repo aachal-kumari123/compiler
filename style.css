@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("download.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 636px; */
+    width: 100%;
+}
+
+/* .back img {
+     height: 640px; 
+  width: 900px;
+    backdrop-filter: blur(5px);
+} */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+}
+.navbar ul {
+    display: flex;
+    gap: 60px;
+    padding-right: 950px;
+}
+.navbar ul li {
+    list-style: none;
+    cursor: pointer;
+    
+    font-style: bold;
+    background-color: rgb(226, 208, 208);
+    border-radius: 40px;
+    padding-left: 20px;
+}
+a {
+    color: black;
+   text-decoration: none;
+   padding-right: 30px;
+}
+ul li:hover{
+    background-color: rgb(232, 142, 157);
+    color: yellow;
+}
+.imge img{
+    height: 100px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+h1 {
+    padding-top: 80px;
+    padding-left: 10px;
+    font-size: 60px;
+    text-shadow: red;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+    padding-left: 70px;
+    margin-top: 30px;
+
+}
+.code p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+.button-91 {
+    /* color: #fff; */
+    padding: 15px 40px;
+      background-color: #38D2D2;  
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    cursor: pointer;
+    /* padding-left: 70px; */
+    margin-left: 200px;
+    margin-top: 40px;
+}
+button:hover{
+    color: red;
+    background-color: rgb(177, 86, 101);
+}
